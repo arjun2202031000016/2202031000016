@@ -1,0 +1,314 @@
+.frame-icon,
+.image-1-icon {
+  position: relative;
+  object-fit: cover;
+}
+.image-1-icon {
+  height: 610px;
+  width: 544px;
+  max-width: 100%;
+}
+.frame-icon {
+  height: 80.2px;
+  width: 195.6px;
+}
+.rectangle {
+  width: 254px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcome-to-smartcart {
+  align-self: stretch;
+  height: 30.4px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px 0;
+  font-size: 32px;
+}
+.ship-smarter-today {
+  width: 298px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.frame-child {
+  height: 51.9px;
+  width: 456.1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.frame-item {
+  height: 31.8px;
+  width: 48.7px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.username-or-email {
+  width: 252px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-group,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-group {
+  align-self: stretch;
+  height: 52px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 9px 0 10px;
+  gap: 0 70px;
+  white-space: nowrap;
+}
+.frame-group {
+  width: 456px;
+  flex-direction: column;
+  gap: 34px 0;
+}
+.frame-inner {
+  height: 52.6px;
+  width: 455.2px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.password,
+.text-icon {
+  position: relative;
+  z-index: 1;
+}
+.text-icon {
+  height: 39px;
+  width: 39px;
+  object-fit: cover;
+}
+.password {
+  width: 131px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.rectangle-container {
+  width: 455px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 7px 3px 6px;
+  gap: 0 76px;
+  max-width: 100%;
+}
+.text {
+  height: 21.4px;
+  width: 34.3px;
+  background-color: transparent;
+  box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #021213;
+  box-sizing: border-box;
+}
+.remember-me,
+.text {
+  position: relative;
+}
+.rectangle-wrapper,
+.rectangle2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle2 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 29px;
+}
+.rectangle-wrapper {
+  width: 205px;
+  flex-direction: column;
+  padding: var(--padding-4xl) 0 0;
+  box-sizing: border-box;
+}
+.forgot-password {
+  position: relative;
+  font-weight: 300;
+}
+.frame-container,
+.frame-parent,
+.rectangle1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-container {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: var(--font-size-xl);
+}
+.frame-parent,
+.rectangle1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 9px 0;
+  max-width: 100%;
+}
+.frame-parent {
+  gap: 53px 0;
+  flex-shrink: 0;
+}
+.input-frame {
+  height: 34px;
+  width: 89px;
+  position: relative;
+  background-color: #16a4c4;
+}
+.login {
+  height: 44px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  mix-blend-mode: hard-light;
+  z-index: 1;
+  margin-left: -84px;
+}
+.login-frame,
+.username-or-email-frame {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.username-or-email-frame {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.login-frame {
+  width: 139px;
+  padding: 0 32px 0 0;
+  color: var(--color-white);
+  font-family: var(--font-playfair-display);
+}
+.login-frame,
+.login-page,
+.login-page1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.login-page1 {
+  flex: 1;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px var(--padding-4xl) 43px var(--padding-54xl);
+  gap: 89px 0;
+  min-width: 369px;
+  max-width: 100%;
+}
+.login-page {
+  width: 100%;
+  position: relative;
+  background-color: #404647;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 79px var(--padding-54xl) 77px;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1000px) {
+  .image-1-icon {
+    flex: 1;
+  }
+  .login-page {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .welcome-to-smartcart {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frame-container {
+    flex-wrap: wrap;
+  }
+  .frame-parent {
+    gap: 53px 0;
+  }
+  .login-page,
+  .login-page1 {
+    padding-left: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .login-page1 {
+    gap: 89px 0;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    min-width: 100%;
+  }
+  .login-page {
+    padding-right: var(--padding-17xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ship-smarter-today,
+  .welcome-to-smartcart {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-group {
+    gap: 0 70px;
+  }
+  .frame-group {
+    gap: 34px 0;
+  }
+  .password {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-container {
+    flex-wrap: wrap;
+    gap: 0 76px;
+  }
+  .forgot-password,
+  .remember-me {
+    font-size: var(--font-size-base);
+  }
+  .login {
+    font-size: var(--font-size-lgi);
+  }
+  .login-page1 {
+    gap: 89px 0;
+  }
+}
